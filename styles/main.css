@@ -43,7 +43,12 @@ footer.mdl-mini-footer {
 }
 
 
-.footer.mdl-mini-footer > ul {
+footer.mdl-mini-footer > ul {
   margin: auto;
-  font-size: 6rem;
+  font-size: 2rem;
+}
+@media screen and (max-width: 1024px) {
+  header.mdl-layout__header {
+    display: flex;
+  }
 }
